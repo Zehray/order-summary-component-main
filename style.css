@@ -1,0 +1,89 @@
+
+html,body {
+    margin:0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container-element{
+    background-color: hsl(225, 100%, 94%);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.container-middle-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left:5%;
+    right: 5%;
+    bottom: 10%;
+    
+}
+.benner-svg{
+    width: 100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+.container-middle-element h1{
+    font-size: 21px;
+    font-weight: 900;
+    padding: 8% 0;
+}
+
+.container-middle-element p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 5%;
+    line-height: 1.5;
+    max-width: 80%;
+}
+ .payment-plan-contain{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 5% 0;
+     background-color: hsl(225, 100%, 98%);
+     border-radius: 10px;
+
+ }
+ .payment-plan-contain h2{
+     font-weight: 900;
+ }
+ .payment-plan-contain p {
+     padding: 0;
+ }
+.payment-plan-contain a{
+    font-weight: 700;
+}
+ button {
+     display: block;
+     background: hsl(245, 75%, 52%);
+     color: white;
+     border: none;
+     padding: 5%;
+     border-radius: 10px;
+     width: 90%;
+     margin-top: 6%;
+     box-shadow: 0 24px 16px;  
+ }
+
+ .last-link{
+     text-decoration: none;
+     font-weight: 900;
+     color: hsl(224, 23%, 55%);
+     padding-top: 10%;
+ }
+
